@@ -5,8 +5,8 @@
     "dockerfilePath": "Dockerfile"
   },
   "deploy": {
-    "healthcheckPath": "/actuator/health",
-    "healthcheckTimeout": 180,
+    "healthcheckPath": "/swagger-ui/index.html",
+    "healthcheckTimeout": 300,
     "restartPolicyType": "ON_FAILURE"
   }
 }
